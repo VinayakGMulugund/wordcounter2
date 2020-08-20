@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset=utf-8 />
+  <title>Count number of words in a string</title>
+ <link rel="stylesheet" type="text/css" href="wordcount.css"> 
+ 
+</head>
+  <body>
+
+  	<h1>Word counter</h1>
+
+<div id="container">
+	<p>Start typing!! click the button after completion</p>
+ <textarea id="InputText" cols="50" rows="6" placeholder="enter your text here"></textarea>
+  <br>
+  <button onClick="count_words();">COUNT</button>
+  <div id="output">
+  <p>TOTAL WORDS: <span id = "noofwords">0</span></p>
+  <p>TOTAL letters: <span id = "noofltr">0</span></p>
+  </div>
+</div>
+
+  <script type="text/javascript" src="wordcount.js"></script>
+  </body>
+  </html>

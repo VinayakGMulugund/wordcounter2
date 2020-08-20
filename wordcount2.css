@@ -1,0 +1,46 @@
+body {
+	font-family: Roboto;
+  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+  color: #006600;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#container {
+	margin: 100px auto;
+	text-align: center;
+}
+
+button {
+  border: none;
+  color: black;
+  padding: 12px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
+#output {
+	background-color: steelblue;
+	color: white;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-left: 40%;
+	margin-right: 40%;
+}
